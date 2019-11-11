@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { NavController } from '@ionic/angular';
+import { GamePage } from '../game/game.page';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +9,11 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor( public navCtrl:NavController) {}
+
+
+  public play():void{
+    //this.navCtrl.navigateForward(GamePage);
+  }
 
 }
