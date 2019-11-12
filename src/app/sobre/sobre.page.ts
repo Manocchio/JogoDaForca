@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-sobre',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SobrePage implements OnInit {
 
-  constructor() { }
+  constructor( public nv:NavController) { }
 
   ngOnInit() {
   }
 
+  public back():void{
+    this.nv.navigateForward("/home");
+  }
+  public dev():void{
+    this.nv.navigateForward("/desenvolvedores");
+  }
 }
