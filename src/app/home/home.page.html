@@ -1,27 +1,23 @@
-<ion-header>
-    <ion-toolbar>
-        <ion-title>
-            Jogo da Forca
-        </ion-title>
-    </ion-toolbar>
-</ion-header>
-
 <ion-content>
     <div class="background">
         <div class="ion-padding">
+
             <div class="center">
+                <h1> Jogo da Forca</h1>
                 <div class="menu">
-                    <ion-button color="success" class="btn" size="large" href="/game">
-                        <ion-icon name="play" class="icon"></ion-icon> Jogar </ion-button>
-                    <br/>
-                    <ion-button color="warning" class="btn" size="large" href="/sobre">
+                    <ion-button color="success" class="btn" size="large" (click)="play()">
+                        <ion-icon name="play" class="icon"></ion-icon> Jogar
+                    </ion-button>
+                    <br />
+                    <ion-button color="warning" class="btn" size="large" (click)="sobre()">
                         <ion-icon name="information-circle" class="icon"></ion-icon>
                         Sobre
                     </ion-button>
-                    <br/>
+                    <br />
                     <ion-button color="danger" class="btn" size="large">
                         <ion-icon name="exit" class="icon"></ion-icon>
-                        Sair </ion-button>
+                        Sair
+                    </ion-button>
                 </div>
             </div>
         </div>
