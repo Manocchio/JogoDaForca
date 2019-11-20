@@ -49,12 +49,12 @@ export class GamePage implements OnInit {
                     { dica:"Jogo de zumbi da Valve", nome:"Left four dead"},
                     { dica:"Um jogo para caçar vampiros e dar chicotadas", nome:"Castlevania"},
                     { dica:"Um jogo de espionagem, tática e furtividade", nome:"Metal gear solid"},
-                    {, nome:},
-                    {, nome:},
-                    {, nome:},
-                    {, nome:},
-                    {, nome:},
-                    {, nome:},
+                    { dica:" Um assassino profissional clonado, cujo registo impecável coloca-o em alta procura entre os ricos e a elite.", nome:"Hitman"},
+                    { dica:"Basicamente se não o melhor jogo de FPS da atualidade, tem várias versões", nome:"Call of duty"},
+                    { dica:"Jogo de plataforma e rato" , nome:"Transformice"},
+                    { dica:"Um RPG dificil pra kct", nome:"Dark Souls"},
+                    { dica:"Jogo, carro, microsoft, horizonte", nome:"Forza Horizon"},
+                    { dica:"Jogo dragão, roxo, ps2", nome:"Spyro"},
                     
                   ];
 
