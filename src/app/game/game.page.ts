@@ -47,8 +47,8 @@ export class GamePage implements OnInit {
       palavra.classList.add("letra");
       palavra.id = "letra" + i;
       palavra.style.cssFloat = "left";
-      palavra.style.fontSize = "35px";
-      palavra.style.marginLeft = "20px";
+      palavra.style.fontSize = "20px";
+      palavra.style.marginLeft = "5px";
 
       if (this.palavraSorteada[i] != " ") {
 

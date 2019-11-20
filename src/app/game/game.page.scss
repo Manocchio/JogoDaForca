@@ -42,15 +42,15 @@ div.menu {
 }
 
 .forca {
-    height: 350px;
+    height: 200px;
 }
 
 div.teclado-button {
     position: relative;
     background-color: orange;
     border: solid 2px white;
-    height: 80px;
-    width: 80px;
+    height: 30px;
+    width: 30px;
     color: white;
     margin-left: 18px;
     margin-top: 20px;
@@ -71,17 +71,19 @@ div.teclado {
 
 #personagem {
     position: absolute;
-    min-height: 150px;
-    max-height: 150px;
-    min-width: 80px;
-    max-width: 80px;
-    top: 160px;
-    left: 230px;
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 50px;
+    max-width: 50px;
+    top: 85px;
+    left: 130px;
 }
 
 div.container-forca {
     position: relative;
-    width: 350px;
+    width: 200px;
+    height: 200px;
+    
 }
 
 div.container-palavra * {
