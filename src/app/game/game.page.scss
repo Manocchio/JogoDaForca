@@ -19,12 +19,11 @@ div.background {
     color: white;
 }
 
-div.center {
+.center {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 250px;
 }
 
 .btn {
@@ -40,4 +39,53 @@ div.menu {
 
 .icon {
     height: 20px;
+}
+
+.forca {
+    height: 350px;
+}
+
+div.teclado-button {
+    position: relative;
+    background-color: orange;
+    border: solid 2px white;
+    height: 80px;
+    width: 80px;
+    color: white;
+    margin-left: 18px;
+    margin-top: 20px;
+}
+
+div.teclado-button p {
+    margin: 0;
+}
+
+div.teclado {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#personagem {
+    position: absolute;
+    min-height: 150px;
+    max-height: 150px;
+    min-width: 80px;
+    max-width: 80px;
+    top: 160px;
+    left: 230px;
+}
+
+div.container-forca {
+    position: relative;
+    width: 350px;
+}
+
+div.container-palavra * {
+    float: left;
+    margin-left: 30px;
+    font-size: 40px !important;
 }
