@@ -13,7 +13,7 @@ export class HomePage {
 
 
   public play():void{
-    this.navCtrl.navigateForward("/game");
+    this.navCtrl.navigateForward("/user");
   }
 
   public sobre():void{

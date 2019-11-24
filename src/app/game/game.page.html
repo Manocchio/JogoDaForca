@@ -3,9 +3,12 @@
 
         <div class="ion-padding">
 
-            <div>
-                <ion-icon class="icone-ajuda" name="information-circle-outline"></ion-icon>
-            </div>
+
+
+            <ion-button (click)="exibirDica()" color="warning" class="right">
+                <ion-icon slot="start" name="help"></ion-icon>
+                Dica
+            </ion-button>
 
             <div class="container-forca">
 
@@ -136,7 +139,9 @@
                 </div>
             </div>
 
-
+        <ion-button (click)="presentAlertPrompt()" expand="block" class="bottom" color="tertiary">
+            Chutar uma palavra
+        </ion-button>
         </div>
     </div>
 
