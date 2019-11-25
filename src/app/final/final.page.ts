@@ -15,11 +15,19 @@ export class FinalPage implements OnInit {
   ngOnInit() {
 
     this.route.paramMap.subscribe((params: ParamMap) => {
-
+      
       this.resultado = params.get("resultado");
     })
+    
+    
+    var background = document.querySelector(".final");
+    
+    if((parseInt(this.resultado)) == 1)
+      background.setAttribute("class", "win");
 
+    else if((parseInt(this.resultado)) == 0)
+      background.setAttribute("class", "gameover");
+  
   }
-
   
 }

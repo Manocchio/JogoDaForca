@@ -1,0 +1,21 @@
+.win {
+    background-image: url(../../assets/img/win.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-position: center;
+    color: white;
+}
+
+.gameover {
+    background-image: url(../../assets/img/gameover.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-position: center;
+    color: white;
+}

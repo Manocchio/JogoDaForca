@@ -134,7 +134,8 @@ export class GamePage implements OnInit {
           if (this.quantidadeAcertos == this.palavraSorteada.replace(/ /g, "").length) {
 
             this.playSong("../../assets/song/vitoria.mp3")
-            this.nav.navigateRoot("/final/Você ganhou," + this.nomeJogador + "!");
+            //this.nav.navigateRoot("/final/Você ganhou," + this.nomeJogador + "!");
+            this.nav.navigateRoot("/final/1");
           }
         }
 
@@ -209,8 +210,8 @@ export class GamePage implements OnInit {
 
       this.playSong("../../assets/song/vitoria.mp3");
       
-      this.nav.navigateRoot("/final/Você ganhou," + this.nomeJogador + "!");
-
+      //this.nav.navigateRoot("/final/Você ganhou," + this.nomeJogador + "!");
+      this.nav.navigateRoot("/final/1");
     }
     else {
 
@@ -250,7 +251,9 @@ export class GamePage implements OnInit {
     }
     else {
       
-      this.nav.navigateRoot("/final/Você perdeu," + this.nomeJogador + "!");
+      //this.nav.navigateRoot("/final/Você perdeu," + this.nomeJogador + "!");
+      this.nav.navigateRoot("/final/0");
+      this.playSong("../../assets/song/gameover.mp3")
     }
 
    
