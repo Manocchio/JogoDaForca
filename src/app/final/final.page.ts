@@ -10,6 +10,7 @@ import { ActivatedRoute, ParamMap } from '@angular/router';
 export class FinalPage implements OnInit {
 
   public resultado:string;
+
   constructor(public nav:NavController, public route:ActivatedRoute) { }
 
   ngOnInit() {
@@ -18,8 +19,11 @@ export class FinalPage implements OnInit {
       
       this.resultado = params.get("resultado");
     })
+
+
+ 
     
-    
+    /*
     var background = document.querySelector(".final");
     
     if((parseInt(this.resultado)) == 1)
@@ -27,7 +31,20 @@ export class FinalPage implements OnInit {
 
     else if((parseInt(this.resultado)) == 0)
       background.setAttribute("class", "gameover");
+
+      */
   
+  }
+
+
+  public jogar():void{
+
+    this.nav.navigateRoot("/user");
+  } 
+  public menu():void{
+
+    this.nav.navigateRoot("/home");
+    
   }
   
 }
