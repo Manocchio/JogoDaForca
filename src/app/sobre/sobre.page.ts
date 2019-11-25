@@ -14,7 +14,7 @@ export class SobrePage implements OnInit {
   }
 
   public back():void{
-    this.nv.navigateForward("/home");
+    this.nv.navigateBack("/home");
   }
   public dev():void{
     this.nv.navigateForward("/desenvolvedores");

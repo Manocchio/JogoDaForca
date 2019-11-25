@@ -13,6 +13,6 @@ export class DesenvolvedoresPage implements OnInit {
   ngOnInit() {
   }
   public back():void{
-    this.nv.navigateForward("/sobre");
+    this.nv.navigateBack("/sobre");
   }
 }
